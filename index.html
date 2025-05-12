@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estética Beauty - Clínica de Estética Avançada</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS - Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-additional.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/logo-neutral.svg"
+              alt="Estética Beauty"
+              height="60"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tratamentos">Tratamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#antes-depois">Antes e Depois</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#depoimentos">Depoimentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html" target="_blank"
+                  >Contato</a
+                >
+              </li>
+              <li class="nav-item ms-lg-3">
+                <a
+                  class="btn btn-primary rounded-pill"
+                  href="tel:+5511999999999"
+                >
+                  <i class="fas fa-phone-alt me-2"></i>Agende Agora
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section com Background Image -->
+    <section
+      class="bg-image-section"
+      style="background-image: url(images/consultorio.png)"
+    >
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+            <h1 class="display-4 fw-bold mb-4">
+              Transforme sua aparência com tratamentos avançados
+            </h1>
+            <p class="lead mb-4">
+              Descubra o poder da estética avançada com procedimentos
+              personalizados para realçar sua beleza natural.
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#tratamentos" class="btn btn-primary btn-lg rounded-pill"
+                >Nossos Tratamentos</a
+              >
+              <a
+                href="contato-neutral.html"
+                class="btn btn-outline-light btn-lg rounded-pill"
+                >Fale Conosco</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="antes-depois" class="before-after-section py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+            <div class="section-heading">
+              <h6 class="text-primary text-uppercase fw-bold">
+                Resultados Reais
+              </h6>
+              <h2 class="display-5 fw-bold">Antes e Depois</h2>
+              <p class="lead">
+                Confira os resultados transformadores dos nossos tratamentos
+                estéticos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Before After Carousel -->
+        <div
+          id="beforeAfterCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          style="background-color: #34495d"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#beforeAfterCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#beforeAfterCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#beforeAfterCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#beforeAfterCarousel"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner rounded-4 shadow">
+            <div class="carousel-item active">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="before-image">
+                    <img
+                      src="images/before-after/senhora antes.png"
+                      class="d-block w-100"
+                      alt="Antes do tratamento"
+                    />
+                    <div class="overlay">Antes</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="after-image">
+                    <img
+                      src="images/before-after/senhora depois.png"
+                      class="d-block w-100"
+                      alt="Depois do tratamento"
+                    />
+                    <div class="overlay">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Rejuvenescimento Facial</h5>
+                <p>Resultado após 4 sessões de tratamento combinado.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="before-image">
+                    <img
+                      src="images/before-after/mulher sobrepeso antes.png"
+                      class="d-block w-100"
+                      alt="Antes do tratamento"
+                    />
+                    <div class="overlay">Antes</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="after-image">
+                    <img
+                      src="images/before-after/mulher sobrepeso depois.png"
+                      class="d-block w-100"
+                      alt="Depois do tratamento"
+                    />
+                    <div class="overlay">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Redução de Medidas</h5>
+                <p>Resultado após 8 sessões de tratamento corporal.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="before-image">
+                    <img
+                      src="images/before-after/homem meia idade harmonizacao facial antes.png"
+                      class="d-block w-100"
+                      alt="Antes do tratamento"
+                    />
+                    <div class="overlay">Antes</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="after-image">
+                    <img
+                      src="images/before-after/homem meia idade harmonizacao facial depois.png"
+                      class="d-block w-100"
+                      alt="Depois do tratamento"
+                    />
+                    <div class="overlay">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Harmonização Facial</h5>
+                <p>Resultado após procedimento completo de harmonização.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="before-image">
+                    <img
+                      src="images/before-after/jovem acne antes.png"
+                      class="d-block w-100"
+                      alt="Antes do tratamento"
+                    />
+                    <div class="overlay">Antes</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="after-image">
+                    <img
+                      src="images/before-after/jovem acne depois.png"
+                      class="d-block w-100"
+                      alt="Depois do tratamento"
+                    />
+                    <div class="overlay">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Tratamento de Acne</h5>
+                <p>Resultado após 6 sessões de tratamento especializado.</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#beforeAfterCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#beforeAfterCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="#" class="btn btn-primary btn-lg rounded-pill"
+            >Ver Mais Resultados</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about-section py-5">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div
+            class="col-lg-6 mb-4 mb-lg-0"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <div class="position-relative">
+              <img
+                src="images/recep├º├úo clinica.png"
+                alt="Nossa Clínica"
+                class="img-fluid rounded-4"
+              />
+              <div class="experience-badge">
+                <span class="number">15</span>
+                <span class="text">Anos de Experiência</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+            <div class="section-heading mb-4">
+              <h6 class="text-primary text-uppercase fw-bold">Sobre Nós</h6>
+              <h2 class="display-5 fw-bold">
+                Estética avançada com tecnologia de ponta
+              </h2>
+            </div>
+            <p class="lead mb-4">
+              Na Estética Beauty, combinamos anos de experiência com as mais
+              recentes tecnologias para oferecer tratamentos estéticos de alta
+              qualidade para todos os gêneros.
+            </p>
+            <p class="mb-4">
+              Nossa equipe de profissionais altamente qualificados está
+              comprometida em proporcionar resultados excepcionais, sempre
+              respeitando a individualidade de cada cliente. Utilizamos
+              equipamentos de última geração e produtos de alta qualidade para
+              garantir a eficácia e segurança de todos os procedimentos.
+            </p>
+
+            <div class="row g-4 mt-2">
+              <div class="col-md-6">
+                <div class="feature-item d-flex align-items-center">
+                  <div class="icon-box me-3">
+                    <i class="fas fa-certificate"></i>
+                  </div>
+                  <div>
+                    <h5 class="mb-1">Profissionais Certificados</h5>
+                    <p class="mb-0">Equipe especializada e atualizada</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="feature-item d-flex align-items-center">
+                  <div class="icon-box me-3">
+                    <i class="fas fa-microscope"></i>
+                  </div>
+                  <div>
+                    <h5 class="mb-1">Tecnologia Avançada</h5>
+                    <p class="mb-0">Equipamentos de última geração</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specialties Section com Background -->
+    <section
+      class="specialties-bg-section"
+      style="background-image: url(images/sala\ de\ espera\ clinica.png)"
+    >
+      <div class="container">
+        <div class="row justify-content-end">
+          <div
+            class="col-lg-7 text-white"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <div class="section-heading mb-4">
+              <h6 class="text-white text-uppercase fw-bold">
+                Nossas Especialidades
+              </h6>
+              <h2 class="display-5 fw-bold">
+                Tratamentos para todos os gêneros
+              </h2>
+            </div>
+            <p class="lead mb-4">
+              Oferecemos uma ampla gama de tratamentos estéticos adaptados para
+              atender às necessidades específicas de todos os nossos clientes,
+              independentemente do gênero.
+            </p>
+
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="specialty-item">
+                  <h4><i class="fas fa-check-circle me-2"></i> Para Homens</h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="fas fa-angle-right me-2"></i> Tratamentos
+                      faciais masculinos
+                    </li>
+                    <li>
+                      <i class="fas fa-angle-right me-2"></i> Depilação a laser
+                    </li>
+                    <li>
+                      <i class="fas fa-angle-right me-2"></i> Redução de medidas
+                    </li>
+                    <li>
+                      <i class="fas fa-angle-right me-2"></i> Tratamento para
+                      calvície
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="specialty-item">
+                  <h4>
+                    <i class="fas fa-check-circle me-2"></i> Para Mulheres
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="fas fa-angle-right me-2"></i> Rejuvenescimento
+                      facial
+                    </li>
+                    <li>
+                      <i class="fas fa-angle-right me-2"></i> Tratamentos
+                      corporais
+                    </li>
+                    <li>
+                      <i class="fas fa-angle-right me-2"></i> Preenchimentos
+                    </li>
+                    <li>
+                      <i class="fas fa-angle-right me-2"></i> Harmonização
+                      facial
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <a href="#tratamentos" class="btn btn-light rounded-pill"
+                >Ver Todos os Tratamentos</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="tratamentos" class="services-section py-5 bg-light">
+      <div class="container py-5">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+            <div class="section-heading">
+              <h6 class="text-primary text-uppercase fw-bold">
+                Nossos Tratamentos
+              </h6>
+              <h2 class="display-5 fw-bold">
+                Soluções estéticas personalizadas para você
+              </h2>
+              <p class="lead">
+                Conheça nossos principais tratamentos estéticos, desenvolvidos
+                para atender às suas necessidades específicas.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-spa"></i>
+              </div>
+              <h4>Tratamentos Faciais</h4>
+              <p>
+                Rejuvenescimento, limpeza de pele, microagulhamento, peelings e
+                outros tratamentos para revitalizar sua pele.
+              </p>
+              <a href="#" class="btn-link"
+                >Saiba mais <i class="fas fa-arrow-right ms-2"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-wave-square"></i>
+              </div>
+              <h4>Tratamentos Corporais</h4>
+              <p>
+                Redução de medidas, tratamento de celulite, flacidez e gordura
+                localizada com tecnologias avançadas.
+              </p>
+              <a href="#" class="btn-link"
+                >Saiba mais <i class="fas fa-arrow-right ms-2"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-syringe"></i>
+              </div>
+              <h4>Preenchimentos</h4>
+              <p>
+                Preenchimento labial, contorno facial e correção de linhas de
+                expressão para um visual mais jovem.
+              </p>
+              <a href="#" class="btn-link"
+                >Saiba mais <i class="fas fa-arrow-right ms-2"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <h4>Depilação a Laser</h4>
+              <p>
+                Remoção permanente de pelos com tecnologia avançada, segura e
+                eficaz para todos os tipos de pele.
+              </p>
+              <a href="#" class="btn-link"
+                >Saiba mais <i class="fas fa-arrow-right ms-2"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-tint"></i>
+              </div>
+              <h4>Hidratação Profunda</h4>
+              <p>
+                Tratamentos intensivos de hidratação para pele e cabelos,
+                devolvendo brilho e vitalidade.
+              </p>
+              <a href="#" class="btn-link"
+                >Saiba mais <i class="fas fa-arrow-right ms-2"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-magic"></i>
+              </div>
+              <h4>Harmonização Facial</h4>
+              <p>
+                Procedimentos combinados para equilibrar e harmonizar os traços
+                faciais, realçando sua beleza natural.
+              </p>
+              <a href="#" class="btn-link"
+                >Saiba mais <i class="fas fa-arrow-right ms-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards com Background Images -->
+    <section class="py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+            <div class="section-heading">
+              <h6 class="text-primary text-uppercase fw-bold">
+                Nossos Diferenciais
+              </h6>
+              <h2 class="display-5 fw-bold">
+                Por que escolher a Estética Beauty?
+              </h2>
+              <p class="lead">
+                Conheça os diferenciais que fazem da nossa clínica a escolha
+                ideal para seus tratamentos estéticos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <div class="bg-card">
+              <img
+                src="images/facial-treatment.webp"
+                alt="Tecnologia Avançada"
+                class="bg-card-image"
+              />
+              <div class="bg-card-content">
+                <h4 class="bg-card-title">Tecnologia Avançada</h4>
+                <p class="bg-card-text">
+                  Equipamentos de última geração para resultados superiores.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="bg-card">
+              <img
+                src="images/hair-salon.webp"
+                alt="Profissionais Qualificados"
+                class="bg-card-image"
+              />
+              <div class="bg-card-content">
+                <h4 class="bg-card-title">Profissionais Qualificados</h4>
+                <p class="bg-card-text">
+                  Equipe especializada e constantemente atualizada.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <div class="bg-card">
+              <img
+                src="images/beauty-clinic.webp"
+                alt="Ambiente Acolhedor"
+                class="bg-card-image"
+              />
+              <div class="bg-card-content">
+                <h4 class="bg-card-title">Ambiente Acolhedor</h4>
+                <p class="bg-card-text">
+                  Espaço confortável e relaxante para sua experiência.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before After Section -->
+
+    <!-- Testimonials Section com Background -->
+    <section id="depoimentos" class="testimonial-bg-section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+            <div class="section-heading">
+              <h6 class="text-white text-uppercase fw-bold">Depoimentos</h6>
+              <h2 class="display-5 fw-bold text-white">
+                O que nossos clientes dizem
+              </h2>
+              <p class="lead text-white">
+                Descubra por que nossos clientes confiam em nós para seus
+                tratamentos estéticos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              id="testimonialCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial-card">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8 text-center">
+                        <div class="testimonial-image">
+                          <img
+                            src="images/testimonial-1.jpg"
+                            alt="Cliente"
+                            class="rounded-circle"
+                          />
+                        </div>
+                        <div class="testimonial-rating mb-3">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                          "Estou extremamente satisfeita com os resultados do
+                          meu tratamento facial. A equipe é muito profissional e
+                          atenciosa, me explicando cada etapa do processo.
+                          Recomendo a todos que buscam qualidade e resultados
+                          reais!"
+                        </p>
+                        <h5 class="testimonial-name">Ana Paula Silva</h5>
+                        <p class="testimonial-info">Cliente desde 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-card">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8 text-center">
+                        <div class="testimonial-image">
+                          <img
+                            src="images/testimonial-2.jpg"
+                            alt="Cliente"
+                            class="rounded-circle"
+                          />
+                        </div>
+                        <div class="testimonial-rating mb-3">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                          "Fiz o tratamento de redução de medidas e os
+                          resultados superaram minhas expectativas. O ambiente
+                          da clínica é acolhedor e os profissionais são
+                          altamente qualificados. Já indiquei para várias
+                          amigas!"
+                        </p>
+                        <h5 class="testimonial-name">Carla Mendes</h5>
+                        <p class="testimonial-info">Cliente desde 2023</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-card">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8 text-center">
+                        <div class="testimonial-image">
+                          <img
+                            src="images/testimonial-3.jpg"
+                            alt="Cliente"
+                            class="rounded-circle"
+                          />
+                        </div>
+                        <div class="testimonial-rating mb-3">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                          "A depilação a laser mudou minha vida! Depois de anos
+                          sofrendo com métodos tradicionais, finalmente
+                          encontrei uma solução permanente. Os profissionais são
+                          excelentes e o resultado é incrível!"
+                        </p>
+                        <h5 class="testimonial-name">Roberto Almeida</h5>
+                        <p class="testimonial-info">Cliente desde 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-indicators testimonial-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section com Background -->
+    <section class="team-bg-section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+            <div class="section-heading">
+              <h6 class="text-primary text-uppercase fw-bold">Nossa Equipe</h6>
+              <h2 class="display-5 fw-bold">Profissionais Especializados</h2>
+              <p class="lead">
+                Conheça os especialistas que farão parte da sua jornada de
+                transformação.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <div class="team-card text-center">
+              <div class="team-image mb-3">
+                <img
+                  src="images/team-1.jpg"
+                  alt="Dr. Carlos Silva"
+                  class="img-fluid rounded-4"
+                />
+              </div>
+              <h4>Dr. Carlos Silva</h4>
+              <p class="text-primary mb-2">
+                Especialista em Harmonização Facial
+              </p>
+              <p class="mb-3">
+                Mais de 10 anos de experiência em procedimentos estéticos
+                avançados.
+              </p>
+              <div class="social-links justify-content-center">
+                <a href="#" class="social-link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="team-card text-center">
+              <div class="team-image mb-3">
+                <img
+                  src="images/team-2.jpg"
+                  alt="Dra. Mariana Costa"
+                  class="img-fluid rounded-4"
+                />
+              </div>
+              <h4>Dra. Mariana Costa</h4>
+              <p class="text-primary mb-2">
+                Especialista em Tratamentos Corporais
+              </p>
+              <p class="mb-3">
+                Especializada em tecnologias avançadas para redução de medidas e
+                modelagem corporal.
+              </p>
+              <div class="social-links justify-content-center">
+                <a href="#" class="social-link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <div class="team-card text-center">
+              <div class="team-image mb-3">
+                <img
+                  src="images/team-3.jpg"
+                  alt="Dr. André Santos"
+                  class="img-fluid rounded-4"
+                />
+              </div>
+              <h4>Dr. André Santos</h4>
+              <p class="text-primary mb-2">
+                Especialista em Tratamentos Faciais
+              </p>
+              <p class="mb-3">
+                Referência em procedimentos de rejuvenescimento e tratamentos
+                para acne.
+              </p>
+              <div class="social-links justify-content-center">
+                <a href="#" class="social-link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section com Background -->
+    <section class="contact-bg-section">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div
+              class="cta-content text-center"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <h2 class="display-4 fw-bold text-white mb-4">
+                Pronto para transformar sua aparência?
+              </h2>
+              <p class="lead text-white mb-4">
+                Agende uma avaliação gratuita e descubra o tratamento ideal para
+                você.
+              </p>
+              <a
+                href="contato-neutral.html"
+                class="btn btn-light btn-lg rounded-pill"
+                >Agendar Avaliação</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section py-5">
+      <div class="container py-4">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="footer-info">
+              <img
+                src="images/logo-neutral.svg"
+                alt="Estética Beauty"
+                height="60"
+                class="mb-4"
+              />
+              <p>
+                Transformando aparência e autoestima com tratamentos estéticos
+                avançados e personalizados para cada cliente.
+              </p>
+              <div class="social-links mt-4">
+                <a href="#" class="social-link"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a href="#" class="social-link"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5 class="footer-heading">Links Rápidos</h5>
+            <ul class="footer-links">
+              <li><a href="index-neutral.html">Início</a></li>
+              <li><a href="#antes-depois">Antes e Depois</a></li>
+              <li><a href="#sobre">Sobre Nós</a></li>
+              <li><a href="#tratamentos">Tratamentos</a></li>
+              <li><a href="contato-neutral.html">Contato</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="footer-heading">Tratamentos</h5>
+            <ul class="footer-links">
+              <li><a href="#">Tratamentos Faciais</a></li>
+              <li><a href="#">Tratamentos Corporais</a></li>
+              <li><a href="#">Preenchimentos</a></li>
+              <li><a href="#">Depilação a Laser</a></li>
+              <li><a href="#">Harmonização Facial</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5 class="footer-heading">Contato</h5>
+            <ul class="footer-contact">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span
+                  >Av. Paulista, 1000 - Bela Vista<br />São Paulo - SP,
+                  01310-100</span
+                >
+              </li>
+              <li>
+                <i class="fas fa-phone-alt"></i>
+                <span>(11) 99999-9999</span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>contato@esteticabeauty.com.br</span>
+              </li>
+              <li>
+                <i class="fas fa-clock"></i>
+                <span>Seg - Sex: 9h às 20h<br />Sábado: 9h às 18h</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="copyright mb-0">
+                &copy; 2025 Estética Beauty. Todos os direitos reservados.
+              </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <p class="mb-0">
+                <a href="#">Política de Privacidade</a> |
+                <a href="#">Termos de Uso</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Voltar ao topo">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS - Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/advanced-features.js"></script>
+  </body>
+</html>

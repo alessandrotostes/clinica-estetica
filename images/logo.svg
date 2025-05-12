@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="80" viewBox="0 0 200 80">
+  <style>
+    .logo-text { font-family: 'Montserrat', sans-serif; font-weight: bold; }
+    .tagline { font-family: 'Montserrat', sans-serif; font-weight: 300; }
+  </style>
+  <rect width="200" height="80" fill="#d83f87" rx="5" ry="5"/>
+  <text x="100" y="35" fill="white" text-anchor="middle" class="logo-text" font-size="24">ESTÉTICA</text>
+  <text x="100" y="55" fill="white" text-anchor="middle" class="logo-text" font-size="24">BEAUTY</text>
+  <text x="100" y="70" fill="#f0f0f0" text-anchor="middle" class="tagline" font-size="10">BELEZA AVANÇADA</text>
+  <path d="M30,40 C30,30 40,25 45,35 C50,45 60,40 60,30" stroke="white" stroke-width="2" fill="none" opacity="0.8"/>
+</svg>
