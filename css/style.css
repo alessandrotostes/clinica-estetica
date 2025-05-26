@@ -588,7 +588,7 @@ header {
 /* Seção de Especialidades com Background */
 .specialties-bg-section {
   background-image: url("../images/specialties-bg.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   padding: 100px 0;
   position: relative;
